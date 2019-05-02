@@ -23,7 +23,7 @@ $ ./script_header.sh
 ```
 ## How to use
 Input the the location of the file, a descrition, your full name, your e-mail address, and a license.
-it will be formatted in the file like this:
+It will be formatted in the file like this:
 ```sh
 #!/bin/sh
 
