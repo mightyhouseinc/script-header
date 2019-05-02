@@ -32,7 +32,7 @@ read -p "Email address: " EMAIL
 read -p "License used: " LICENSE
 
 # Print script header to file
-printf "#!/bin/sh\n\n# $DESC\n# $NAME<$EMAIL>\n# $LICENSE\n\n\n" > $FILE
+printf "#!/bin/sh\n\n# $DESC\n# $NAME <$EMAIL>\n# $LICENSE\n\n\n" > $FILE
 
 # Make file executable
 chmod +x $FILE
