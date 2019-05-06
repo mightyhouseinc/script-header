@@ -22,7 +22,7 @@ $ sudo cp script_header.sh /bin/
 $ ./script_header.sh
 ```
 ## How to use
-Input the the location of the file, a descrition, your full name, your e-mail address, and a license.
+Input the the location of the file, a descrition, your full name, your e-mail address, and a license. You will also be asked if you wish to include a list of dependencies your script requires.
 It will be formatted in the file like this:
 ```sh
 #!/bin/sh
@@ -31,5 +31,6 @@ It will be formatted in the file like this:
 # John Smith <johnsmith@example.com>
 # GNU GPLv3
 
+# Dependencies: openssl, vim, fzf
 ```
 You will then be given the option to immediatley open the file in vim by inputting "y"
