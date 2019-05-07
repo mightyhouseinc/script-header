@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # A script to add a header to other scripts and make them executable
-# Joe Standring <jstandring@pm.me>
+# Joe Standring <git@joestandring.com>
 # GNU GPLv3
 
 # Store current directory
