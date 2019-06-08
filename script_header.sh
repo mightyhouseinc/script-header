@@ -4,8 +4,13 @@
 # Joe Standring <git@joestandring.com>
 # GNU GPLv3
 
-# User inputs file location
-read -r -p "File location (/path/to/script.sh): " FILE
+# Check if arguments are passed to the script
+if [ "$#" -eq 0 ]; then
+    # User inputs file location
+    read -r -p "File location (/path/to/script.sh): " FILE
+else
+    FILE="$1"
+fi
 
 # Removes spaces and converts captials to lower case
 FILE=$(printf "$FILE" | tr -d "[:space:]" | tr "[:upper:]" "[:lower:]")
